@@ -41,6 +41,6 @@ Download weights [digitSVHNmodel.pth](https://drive.google.com/file/d/12Qf3uzFMl
 python JerseyTaggerGUI.py --csv_path CSV_PATH
 ```
 
-<img src="examples/player1.jpg">
-<img src="examples/player2.jpg">
-<img src="examples/player3.jpg">
+<img src="examples/example_correct_suggestion2.jpg">
+<img src="examples/example_correct_suggestion3.jpg">
+<img src="examples/example_correct_suggestion4.jpg">
