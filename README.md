@@ -1,7 +1,7 @@
 # PlayerJerseyNumberTagger
 Semi-supervised GUI to help you tag jersey numbers of players in sports videos for better player tracking and recognition.
 
-<img src="examples/example_correct_suggestion.jpg">
+<img src="examples/example_correct_suggestion.JPG" width="300px">
 
 For every provided frame of a player, we ask the user whether or not it's an actual player in the game (and not someone in the attendance or the referee).
 If it is indeed a player, we try to detect digits within the player's torso area and ask the user to confirm the suggested tag predicated by our DigitPredictor module.
