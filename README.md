@@ -1,7 +1,7 @@
 # PlayerJerseyNumberTagger
 Semi-supervised GUI to help you tag jersey numbers of players in sports videos for better player tracking and recognition.
 
-<img src="examples/example_correct_suggestion.JPG" width="300px">
+<img src="examples/example_correct_suggestion.JPG" width="400px">
 
 For every provided frame of a player, we ask the user whether or not it's an actual player in the game (and not someone in the attendance or the referee).
 If it is indeed a player, we try to detect digits within the player's torso area and ask the user to confirm the suggested tag predicated by our DigitPredictor module.
@@ -35,12 +35,12 @@ After we have the folder of frames and detections.csv file from the desired game
 
 Download weights [digitSVHNmodel.pth](https://drive.google.com/file/d/12Qf3uzFMl0h0IQv2okDU6c7Kg-4PI_GC/view?usp=sharing) for the trained digit dectector and place it in digitDetection\ folder.
 
-<img src="examples/weights_example.jpg">
+<img src="examples/weights_example.JPG">
 
 ```bash
 python JerseyTaggerGUI.py --csv_path CSV_PATH
 ```
 
-<img src="examples/example_correct_suggestion2.jpg">
-<img src="examples/example_correct_suggestion3.jpg">
-<img src="examples/example_correct_suggestion4.jpg">
+<img src="examples/example_correct_suggestion2.JPG" width="400px">
+<img src="examples/example_correct_suggestion3.JPG" width="400px">
+<img src="examples/example_correct_suggestion4.JPG" width="400px">
